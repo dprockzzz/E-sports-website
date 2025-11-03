@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RBK Precision</title>
+    <link rel="stylesheet" href="Esports.css">
+    <link
+            href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+            rel="stylesheet">
+    <link
+            href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+            rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="Esports Logo(Cropped).png" alt="Logo" class="logo"></a>
+
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="HideMenu()"></i>
+            <ul>
+                <li><a href="">HOME </a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="">UPCOMING EVENTS</a></li>
+                <li><a href="">PAST EVENTS</a>
+                <li><a href="">ACHIEVEMENTS</a></li>
+                <li><a href="">TEAM</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="ShowMenu()"></i>
+    </nav>
+    <div>
+                    <p class="logo_name">
+            E-Sports Club NITK
+        </p>
+        </div>
+    <div class="text-box", class="typewriter">
+        <h1>#NOT   JUST   ANOTHER   CLUB!!</h1><p>
+ The First and only Student-RUN<br>E-Sports Club in NITK</p>
+    </div>
+    </section>
+    <!------About------->
+     <div class="about" id="about">
+        
+        <div class="about-text">
+            <h1 class="futuristic-h1 mb-6">About Us</h1>
+            <p class="text-lg text-gray-700 leading-relaxed">
+                <span class="font-bold text-xl">Game. Grow. Lead — The Bharat 2047 Way.</span><br>
+                We are NITK’s Esports Club: A student-run, inclusive crew of competitors, creators, and organisers who turn play into purpose. We run weekly game nights and campus tournaments, host LAN and online events, train teams for inter-college showdowns, and build the behind-the-scenes skills that matter — event ops, streaming, marketing, content creation, and game development. Our mission is simple: give every gamer at NITK a platform to compete, learn, and level up — on and off the screen.
+            </p>
+        </div>
+
+        <div class="about-image-placeholder">
+            <div class="text-center text-gray-500 font-semibold italic">
+                <p>Placeholder for Image</p>
+                <p class="text-sm">(1:1 Aspect Ratio Recommended)</p>
+            </div>
+        </div>
+        
+    </div>
+
+        
+
+<!-- Java Script for Toggle Menu -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function ShowMenu(){
+        navLinks.style.right = "0"
+    }
+    function HideMenu(){
+        navLinks.style.right = "-200px"
+    }
+</script>
+</body>
+
+</html>
